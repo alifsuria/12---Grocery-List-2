@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+    <div class="row m-0 h-100 justify-content-center align-content-center">
+        <div class="col-12 ">
+            <div class="row mx-0 my-5 justify-content-center">
+                <div class="col-6">
+                    <div class="card text-center" id="formBox">
+                        <div id="feedback" class="text-center">
+                                <!-- <p class="no-inputfeedback">Please Add Grocery Item</p> -->
+                                <!-- <p class="inputfeedback">ItemName Added To The List</p> -->
+                        </div>
+                        <h5 class="card-title pt-4">Add Grocery Items</h5>
+                        <div class="card-body pt-0">
+                            <form action="" id="inputForm">
+                                <div class="form-group">
+                                    <input type="text" class="" id="inputBox">
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-block btn-sm" id="submitBtn">Submit Here</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-0 my-5 justify-content-center">
+                <div class="col-6">
+                    <div class="card" id="listBox">
+                            <div id="deletedfeedback" class="text-center">
+                                    <!-- <p class="deleted-item">Item! has Removed From The List</p> -->
+                                </div>
+                        <h5 class="card-title text-center pt-4">Grocery Items</h5>
+                        <div class="card-body pt-0">
+                            <div class="list-item list-unstyled">
+                                <!-- <div class="item">
+                                    <h5 class="item-title">Helo</h5>
+                                    <a class="trash-icon" href="javascript:void(0)"><i class="fa fa-trash text-danger"
+                                            aria-hidden="true"></i></a>
+                                </div> -->
+                            </div>
+                            <div class="my-3 d-flex justify-content-center">
+                                <a href="javascript:void(0)" type="button" class="btn btn-sm btn-block" id="clear-all">Clear All Items</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
